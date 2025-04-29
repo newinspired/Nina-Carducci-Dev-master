@@ -50,6 +50,19 @@ body {
 	position: relative;
 }
 
+.carousel-item {
+	position: relative;
+	min-height: 600px;
+}
+  
+  .carousel-item img {
+	width: 100%;
+	height: auto;
+	aspect-ratio: 16 / 9;
+	display: block;
+	object-fit: cover;
+}
+
 .picture.left::before {
 	content: ' ';
 	background-color: #E5975F;
