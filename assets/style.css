@@ -2,6 +2,7 @@ body {
 	max-width: 1920px;
 	margin: auto;
 }
+
 * {
 	font-family: 'Inter';
 	font-style: normal;
@@ -53,6 +54,7 @@ body {
 .carousel-item {
 	position: relative;
 	min-height: 600px;
+	transition: none !important;
 }
   
   .carousel-item img {
@@ -101,6 +103,16 @@ body {
 #about-me p {
 	width: 80%;
 	font-size: 14px;
+}
+
+.carousel-container{
+	aspect-ratio: 16 / 9;
+	width: 100%;
+	overflow: hidden;
+}
+
+.nav-item{
+	cursor : pointer;
 }
 
 #gallery {
@@ -256,6 +268,11 @@ input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
 }
+
+.visually-hidden{
+	color : black;
+}
+
 
 @media all and (max-width: 1180px) {
 	.picture {
